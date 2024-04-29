@@ -1,0 +1,35 @@
+{
+  "name": "star-wars-characters",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest --watch --coverage",
+    "test:ci": "jest --ci",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "styled-components": "^6.1.8",
+    "styled-normalize": "^8.1.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "latest",
+    "@testing-library/react": "latest",
+    "@testing-library/user-event": "latest",
+    "@types/jest": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "jest": "latest",
+    "jest-environment-jsdom": "latest",
+    "typescript": "latest",
+    "fetch-mock-jest": "^1.5.1"
+  }
+}
